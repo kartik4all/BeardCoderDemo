@@ -1,0 +1,83 @@
+#implementation{
+    height: 400px;
+    width: 100%;
+    background: url('../assets/images/service1.jpg');
+    font-family: 'Raleway', sans-serif;
+}
+
+#implementation h3{
+    margin-top: 100px;
+    font-size: 30px;
+    color: #C5C5C5;
+    margin-left: 15%;
+}
+#implementation h1{
+    font-size: 40px;
+    margin-left: 15%;
+    
+}
+#implementation p{
+    margin: 20% 2%;
+    font-size: 17px;
+    
+    padding: 0% 8%;
+}
+#portfolioDummy{
+    height: 25px;
+}
+#implementation>div{
+    height: 100%;
+}
+
+@media(max-width:992px){
+    #implementation h1{
+        font-size: 30px;
+    }
+}
+@media(max-width:576px){
+
+    #implementation p{
+        font-size: 15px;
+    }
+    #implementation h1{
+        font-size: 20px;
+        margin: 0% 2%;
+    }
+    #implementation h3{
+        margin: 35% 5%;
+        font-size: 30px;
+    }
+}
+/* ...........................................integration................................. */
+#integration{
+    height: 600px;
+    
+}
+#integrationPic{
+    height: 400px;
+    width: 100%;
+    background: url('../assets/images/service2.png');
+}
+#integration h1{
+    margin-top: 60px;
+   color:  #FBB145;
+}
+#integration p{
+    margin: 200px 15%;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: rgb(0, 192, 225);
+}
+@media(max-width:992px){
+    #integration p{
+        margin: 100px 10%;
+        font-size: 17px;
+    }
+}
+@media(max-width:460px){
+    #integration p{
+        margin: 80px 2%;
+        font-size: 17px;
+    }
+}
